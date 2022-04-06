@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+}
+
+section{
+    margin-left: 20px;
+}
+
+section h2{
+    font-size: 28px;
+}
+
+article > P {
+    font-size: 24px;
+}
+em{
+    font-size: 20px;
+}
+h1{
+    font-size: 40px;
+    margin-left: 20px;
+    position: sticky;
+    text-align: center;
+}
