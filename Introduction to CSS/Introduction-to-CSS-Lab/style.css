@@ -1,4 +1,4 @@
-input[type="submit" i]{
+input[type="submit"]{
     color: white;
     background: darkgray;
     text-transform: uppercase;
@@ -11,8 +11,12 @@ input[type="submit" i]{
     cursor: pointer
 }
 
-input[type="submit" i] :hover{
-    background:darkgray;
-    color: white;
+input:hover{
+    background:white;
+    color: darkgray;
     border: 1px solid darkgray;
+}
+
+a:visited{
+    color: red;
 }
