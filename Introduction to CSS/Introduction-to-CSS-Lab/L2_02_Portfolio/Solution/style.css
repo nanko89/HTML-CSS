@@ -1,0 +1,142 @@
+ body{
+     background: #F0F1F5;
+     font-family: "Helvetica", sans-serif;
+     margin: 0;
+     padding: 0;
+ }
+
+
+ nav ul li{
+    display: inline-block;
+    padding: 8px;
+}
+
+nav ul li a{
+    color: #00D3D4;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30;
+    font-weight: bold;
+
+}
+
+header{
+    margin: 40px;
+}
+
+div {
+font-size: 20px;
+color: #00D3D4;
+text-align: center;
+font-weight: initial;
+font-family: "Helvetica", sans-serif;
+margin: 20px;
+
+}
+
+div a{
+    padding: 40px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-width: 3px;
+}
+
+div a:nth-child(4){
+    border-right-style: solid;
+    border-right-color: white;
+    border-width: 3px;
+
+}
+
+.fa-servicestack:before {
+    content: "\f3ec";
+    font-size: 40px;
+    color: #00D3D4;
+  
+}
+
+.fa-blog:before {
+    content: "\f781";
+    font-size: 40px;
+    color: #00D3D4;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    font-size: 40px;
+    color: #00D3D4;
+}
+
+.fa-home-lg:before, .fa-house-chimney:before {
+    content: "\e3af";
+    font-size: 40px;
+    color: #00D3D4;
+}
+
+main{
+    display: flex;
+    margin: 50px;
+    padding: 0px 41px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+section.left{
+
+    background: #555c6f;
+    color: #b2b6c0;
+    margin: 0px;
+    padding: 10px;
+    width: 560px;
+}
+
+section.left h1{
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+
+section.left h4{
+margin: 10px;
+font-weight: normal;
+}
+
+section.left footer article.icon i{
+    font-weight: normal;
+    margin: 50px 8px 130px 8px;
+
+    }
+
+section.left footer article.footer{
+    font-weight: normal;
+    font-size: small;
+    margin: 10px;
+}
+section.right{
+    background: #00D3D4;
+    display: flex;
+    color: white;
+    margin: 0px;
+    padding: 15px;
+    width:  800px;
+    
+}
+section.right h1{
+    margin: 0px 15px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+section.right p{
+    margin: 20px 15px;
+    font-size: 17px;
+    font-weight: normal;
+    padding-right: 165px;
+}
+
+img {
+    border: 10px solid white;
+    border-radius: 0;
+    margin: 19px;
+    width: 200px;
+  }
