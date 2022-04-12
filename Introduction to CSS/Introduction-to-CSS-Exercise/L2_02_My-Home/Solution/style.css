@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+header article{
+    display: inline-block;
+    border-left: 2px solid black;
+    margin: 30px;
+
+}
+
+.welcome {
+    width: 60%;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 100;
+    letter-spacing: 7px;
+    padding: 4px 10px;
+    margin: 0px
+}
+
+header p{
+    padding: 8px 15px;
+    margin: 0;
+    font-size: 14px;
+}
+
+main article{
+    display: inline-block;
+    width: 28%;
+    margin: 28px;
+}
