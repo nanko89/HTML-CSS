@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=PT+Serif&display=swap');
+
+body {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding: 0 20px;
+}
+
+.navigation p {
+    display: inline-block;
+    font-size: 22px;
+    width: 628px;
+    color: #666461;
+}
+
+.navigation p span {
+    color: #50b9e1;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav i {
+    border: 1px solid #666461;
+    border-radius: 50%;
+    padding: 5px;
+    size: 15px;
+}
+
+body>header>section.navigation>nav>ul>li:nth-child(6)>ul {
+    padding: 10px;
+}
+
+
+li {
+    display: inline-block;
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #666461;
+}
+
+a:hover {
+    color: #50b9e1;
+    cursor: pointer;
+}
+
+/* site-header */
+
+.site-header {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(./Requirements-and-Resources/Images/kids_main.jpg), no-repeat;
+    background-size: cover;
+}
+
+.site-header h1 {
+    font-size: 66px;
+    color: white;
+    width: 40%;
+    margin: 0;
+    padding: 200px 0 80px 100px;
+}
+
+.site-header button {
+    font-size: 26px;
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin: 0 0 100px 100px;
+    color: white;
+}
+
+.site-header button:hover {
+    background: #50b9e1;
+    border: 2px solid #50b9e1;
+    cursor: pointer;
+
+}
+
+/* welcome */
+.welcome {
+    width: 60%;
+    color: #5a7c8a;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    font-family: "PT Serif", sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    word-spacing: 2px;
+
+}
+
+.welcome p {
+    text-align: center;
+    color: #5a7c8a;
+}
+
+.welcome p span {
+    color: #50b9e1;
+}
+
+
+/* offers */
+
+
+.offers {
+    font-family: "PT Serif", serif;
+    color: white;
+    background: #50b9e1;
+    display: inline-block;
+}
+
+.offers img {
+    width: 70px;
+
+}
+
+.offers li {
+    display: inline-block;
+    width: 400px;
+    text-align: center;
+}
+
+.offers h3,
+p {
+    color: white;
+    padding: 5px 25px;
+}
+
+/* camps */
+
+.camp{
+    color: #5a7c8a;
+    padding: 20px 0;
+}
+
+body > main > a > section > p{
+width: 60%;
+text-align: center;
+margin: 0 auto;
+padding-bottom: 30px;
+}
+
+.camp p {
+    color: #5a7c8a;
+}
+
+.camp img{
+    width: 400px;
+    height: 250px;
+}
+
+.camp li{
+    width: 400px;
+}
+
+body > main > a > section > ul > li > section > div{
+    display:inline-block;
+}
+
+body > main > a > section > ul > li > section > div > p{
+    width: 320px;
+}
+
+body > main > a > section > ul > li > section > div > p,
+body > main > a > section > ul > li > section > div > h3,
+body > main > a > section > ul > li > section > p{
+    margin: 0;
+    padding: 0;
+}
+
+body > main > a > section > ul > li > section:nth-child(2) > div:nth-child(2){
+    background:#50b9e1;
+    color: white;
+    padding: 10px;
+    font-size: 26px;
+
+}
+
+.camp button{
+    font-size: 18px;
+    background: transparent;
+    color: #43bae3;
+    border: 2px solid #43bae3;
+    padding: 8px 15px;
+}
+
+.camp button:hover{
+    background: #43bae3;
+    color: white;
+    padding: 10px 15px;
+}
+body > main > a > section > ul > li > section.info{
+    border-bottom: 2px solid #5a7c8a;
+    padding: 5px;
+}
+
+/* footer */
+
+footer{
+    background: #43bae3;
+    padding: 0 auto;
+    margin: 0;
+}
+
+footer p{
+    display: inline-block;
+    color: #666461;
+   width: 80%;
+}
+
+footer ul{
+    display: inline-block;
+}
+
+
+footer i{
+    border: 1px solid #666461;
+    border-radius: 50%;
+    padding: 5px;
+}
