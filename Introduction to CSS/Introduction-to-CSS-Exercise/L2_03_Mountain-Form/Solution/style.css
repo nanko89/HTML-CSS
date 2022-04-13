@@ -1,0 +1,68 @@
+
+body{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    border: 2px solid;
+    border-radius: 25px;
+    margin: 49px 400px;
+    padding: 0px;
+}
+
+
+section{
+    text-align: center;
+}
+
+.left{
+    border-radius: 25px;
+    background: linear-gradient(rgba(123, 53, 204, 0.2), rgba(51, 11, 116, 0.6)), url(../Requirements-and-Resources/Images/peak.jpg), no-repeat;
+    background-size: cover;
+    color: white;
+    /* padding: 100px; */
+}
+img{
+    width: 100%;
+}
+
+h1{
+    padding: 95px;
+}
+
+.right {
+    padding: 100px 0px 0px 48px;
+    margin-right: 24px;
+    text-align: left;
+}
+
+body > section.right > form > label
+{
+    color: darkgrey;
+}
+input[type=submit] {
+    
+    background-color: #471b6b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+  } 
+/* input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    
+    background-color: #471b6b;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+  } */
+  
+
