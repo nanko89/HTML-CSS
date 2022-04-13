@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    color: rgb(214, 116, 114);
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 10px 25px;
+    margin: 0;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 1000;
+    letter-spacing: 0px;
+    color: #D57071
+}
+
+.picture {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../Requirements-and-Resources/Images/header-flower.png), no-repeat;
+    width: 1200px;
+    height: 600px;
+    background-position: center;
+    background-size: cover;
+    margin: 0px 90px;
+    color: white;
+    text-align: center;
+}
+
+.picture h1 {
+    font-size: 40px;
+    margin: 0px;
+    padding: 215px 0px 0px;
+}
+
+.picture hr{
+    width: 60px;
+    height: 2px;
+    text-align: center;
+    color: #D57071;
+    background-color: #D57071;
+}
+.picture p{
+    width: 37%;
+    padding: 15px 0px 0px 386px;
+}
+
+.second{
+    width: 1200px;
+    height: 300px;
+    background-color: #D57071;
+    text-align: center;
+    margin: -20px 90px;
+    color: white;
+}
+
+.second h1{
+    font-weight: bold;
+    padding: 50px 0px 0px 0px;
+}
+
+.second hr{
+    width: 60px;
+    height: 2px;
+    text-align: center;
+    color: white;
+    background-color: white;
+}
+
+.second p{
+    width: 41%;
+    padding: 5px 0px 15px 360px;
+}
+
+.second button{
+    background: white;
+    border-radius: 5px;
+    color: #D57071;
+    padding: 13px 20px;
+    border: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.work{
+    width: 1200;
+    text-align: center;
+}
+
+
+.work h1{
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.work hr{
+    width: 60px;
+    height: 2px;
+    text-align: center;
+    color: black;
+    background-color: black;
+}
+
+article{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    margin: 10px;
+}
+
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+footer{
+    width: 1200;
+    height: 50px;
+    background: #D57071;
+    color: white;
+    text-align: center;
+    margin: 80px;
+    padding-top: 26px;
+    font-weight: bold;
+}
