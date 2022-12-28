@@ -1,3 +1,7 @@
-# HTML-CSS-MiniCourse
-HTML basic tags creating simple HTML pages and 
-Basic CSS styling, CSS rules, selectors, pseudo-selectors, declarations
+# HTML & CSS SoftUni Course and Mini-Course
+  - HTML Structure
+  - CSS & Typography
+  - CSS Box Model
+  - Position & Grid
+  - Flexbox
+  - Media Queries
