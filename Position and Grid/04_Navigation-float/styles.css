@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(238, 238, 238) ;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas: 
+    'header header'
+    'main aside';
+    gap: 20px;
+    margin: 10px 40px;
+
+}
+
+header {
+    grid-area: header;
+    display: grid;
+    grid-template-areas: 
+    'title nav';
+    border-bottom: 4px solid black;
+}
+
+header h1{
+    grid-area: title;
+    position: relative;
+    left: 0;
+}
+
+header nav {
+    grid-area: nav;
+    position: relative;
+    left: 40%;
+}
+
+header nav ul {
+    display: inline-flex;
+}
+
+header nav ul li {
+    margin: 10px 25px;
+    list-style: none;
+}
+
+
+
+main {
+    grid-area: main;
+
+}
+
+aside {
+    position: relative;
+    left: 20%;
+    grid-area: aside;
+
+}
+
+a {
+    color: rgb(0, 102, 0) ;
+    text-decoration: none;
+}
+
+img {
+    background-color: rgb(255, 255, 255) ;
+    box-shadow: rgba(0, 0, 0, 0.25) ;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0 0 0 30px;
+}
+
+.first img {
+    float: right;
+}
+.second p:nth-of-type(2){
+    width: 50%;
+}
+
+blockquote {
+    float: right;
+    width: 50%;
+    padding: 0 42px;
+}
+
+.third img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+
+
+blockquote {
+     font-family: Georgia, serif;
+     font-style: italic;
+     border-left: 1px solid gray;
+}
+
+h1, h2 {
+    font-family: Georgia, serif;
+    font-size: 1em/1.2;
+}
