@@ -1,26 +1,31 @@
-body {
-font-family: Helvetica, sans-serif;
-font-size: 16px;
-line-height: 1.5;
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-h1,h2.h3,h4,h5,h6 {
-    font-family: Georgia, serif;
+h1,
+h2.h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, serif;
 }
 
-blockquote{
-   
-    border-left:2px solid rgb(221,221,221) ;
-    font-style: italic;
+blockquote {
+  border-left: 2px solid rgb(221, 221, 221);
+  font-style: italic;
 }
 
 table {
-    border: 1px solid;
-    width: 100%;
+  border: 1px solid;
+  width: 100%;
 }
 
-thead th{
-    background-color: gray;
+thead th {
+  background-color: gray;
 }
 
-tr:nth-child(2n) {background-color: #f2f2f2;}
+tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
