@@ -1,0 +1,27 @@
+html {
+  padding: 15px;
+  margin: 10px;
+}
+
+header {
+  border-bottom: 2px solid rgb(0,0,0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+a {
+  color: rgb(0, 153, 0);
+  text-decoration: none;
+}

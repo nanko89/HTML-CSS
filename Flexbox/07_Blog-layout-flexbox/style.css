@@ -1,0 +1,87 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+.page,
+header,
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 80px;
+}
+
+header {
+  width: 100%;
+  justify-content: space-between;
+}
+
+main {
+  width: 60%;
+}
+
+aside {
+  width: 20%;
+}
+
+img {
+  background-color: rgb(255, 255, 255);
+  border: 2px solid black;
+  padding: 5px;
+  width: 20%;
+}
+
+.first img {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.second {
+  position: relative;
+}
+
+.second p:nth-of-type(2) {
+  width: 50%;
+}
+
+.third img {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+blockquote {
+  font-family: Georgia, serif;
+  border-left: 1px solid gray;
+  width: 40%;
+  padding-left: 30px;
+  float: right;
+}
+
+blockquote p {
+  text-align: right;
+}
+
+aside section a {
+  color: rgb(0, 153, 0);
+}
+
+h1,
+h2,
+h3 {
+  font-family: Georgia, serif;
+}
+
+header li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
