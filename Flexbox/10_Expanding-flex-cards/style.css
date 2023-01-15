@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+img {
+  border-radius: 5%;
+}
+
+img:nth-child(1),
+img:nth-child(3),
+img:nth-child(4) {
+  flex-grow: 1;
+}
+
+img:nth-child(2) {
+  flex-grow: 5;
+}

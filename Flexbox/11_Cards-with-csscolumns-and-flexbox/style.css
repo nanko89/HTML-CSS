@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+h2 {
+  margin-top: 5%;
+  margin-left: 10px;
+}
+
+.masonry {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  gap: 1%;
+}
+
+.flex {
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex .card {
+  width: 30%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 1%;
+  border-radius: 10px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid black;
+  height: 100%;
+}
+
+footer {
+  padding: 20px;
+}

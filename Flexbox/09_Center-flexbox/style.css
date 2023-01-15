@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div.card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  padding: 20px;
+  width: 25%;
+}
