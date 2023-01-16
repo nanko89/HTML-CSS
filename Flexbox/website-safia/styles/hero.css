@@ -1,7 +1,3 @@
-#hero {
-  padding: 64px 0;
-}
-
 #hero .info {
   width: calc(100% - 2 * var(--page-px));
   margin: 0 auto;
