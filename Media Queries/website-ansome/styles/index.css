@@ -1,0 +1,69 @@
+@import url("reset.css");
+@import url("variables.css");
+@import url("clients-section.css");
+@import url("business-section.css");
+@import url("hero.css");
+
+body {
+  background-color: var(--clr-bg);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section--narrow {
+  max-width: 1110px;
+  padding: 48px 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section__title,
+.section__desc {
+  text-align: center;
+  max-width: 540px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section__title {
+  margin-bottom: 16px;
+  font-size: 38px;
+  color: var(--clr-black);
+}
+
+.section__desc {
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: var(--clr-gray);
+}
+
+@media screen and (min-width: 1024px) {
+  .section--narrow {
+    padding: 100px 50px;
+  }
+
+  .section__title {
+    margin-bottom: 30px;
+    font-size: 46px;
+  }
+
+  .section__desc {
+    margin-bottom: 50px;
+    font-size: 20px;
+  }
+}
+
+.btn {
+  border: none;
+  border-radius: 6px;
+  padding: 15px 30px;
+  width: 190px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn--primary {
+  color: var(--clr-white);
+  background-color: var(--clr-primary);
+
+  box-shadow: 0px 12px 30px rgba(24, 92, 255, 0.18);
+}

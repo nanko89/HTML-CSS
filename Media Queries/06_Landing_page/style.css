@@ -1,0 +1,190 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+@import url("reset.css");
+@import url("buttons.css");
+@import url("forms.css");
+@import url("typography.css");
+
+header,
+.team,
+.testimonials {
+  margin: 30px auto;
+  max-width: 850px;
+}
+
+header {
+  display: grid;
+  grid-template-areas: "header nav";
+  margin-bottom: 64px;
+}
+
+header .header__logo {
+  grid-area: "header";
+}
+
+header .header_nav {
+  grid-area: "nav";
+}
+
+header .list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header .list li a {
+  text-decoration: none;
+}
+
+.need {
+  margin: 0 auto;
+  position: relative;
+  max-width: 800px;
+}
+
+.need__title {
+  padding: 10px;
+}
+
+.need__desc {
+  display: inline-block;
+  padding: 10px;
+  width: 70%;
+}
+
+.need .fa-solid {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+}
+
+hr {
+  width: 76px;
+  height: 3px;
+  background-color: black;
+  margin-bottom: 48px;
+  margin-top: 20px;
+  border: none;
+}
+
+.team h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 46px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 60px 120px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.card {
+  text-align: center;
+}
+
+.card__img {
+  width: 100px;
+  border: 1px solid darkgray;
+  border-radius: 50%;
+  box-shadow: -2px -2px 37px -11px rgba(0, 0, 0, 0.75);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card__name {
+  font-weight: bold;
+}
+
+.sing-up {
+  background-color: #7d217b;
+  color: aliceblue;
+  text-align: center;
+  max-width: unset;
+  padding: 30px;
+}
+
+.testimonials h2 {
+  text-align: center;
+}
+
+footer {
+  border-bottom: 1px solid black;
+  box-shadow: -2px -2px 37px -11px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+footer h1 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+footer article {
+  width: 30%;
+}
+
+footer .sitemap ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+}
+
+footer article ul {
+  list-style: none;
+}
+
+footer article ul li a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .btn-menu {
+    display: flex;
+  }
+
+  header nav.header_nav {
+    display: none;
+  }
+
+  header btn-menu {
+    grid-area: nav;
+  }
+
+  .need__desc {
+    padding: 10px;
+    width: 50%;
+  }
+
+  .need .fa-solid {
+    bottom: 54px;
+    right: 0px;
+  }
+
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px 20px;
+    max-width: 600px;
+    padding: 0 15px;
+  }
+  footer {
+    flex-direction: column;
+  }
+
+  footer article {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  footer article ul {
+    padding-inline-start: 0;
+  }
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@400;500&family=Roboto:wght@100;400&display=swap");
+
+.header__title {
+  font-family: "Noto Serif Toto", serif;
+  color: #7d217b;
+}
+
+.header__desc {
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: -1px;
+}
+
+.section {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  margin-top: 20px;
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 20px;
+}

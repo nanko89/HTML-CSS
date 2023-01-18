@@ -1,0 +1,43 @@
+@import url("https://use.fontawesome.com/releases/v6.1.1/css/all.css");
+
+legend {
+  border: 1px solid black;
+  padding: 5px 50px 5px 5px;
+}
+
+p {
+  font-weight: 900;
+  padding: auto;
+}
+
+button {
+  background-color: rgb(31, 30, 30);
+  color: floralwhite;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+section {
+  width: 295px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa-solid {
+  position: relative;
+  top: 2px;
+  left: 25px;
+}
+
+@media (max-width: 768px) {
+  p {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .fa-solid {
+    position: relative;
+    top: 22px;
+    left: 3px;
+  }
+}

@@ -1,41 +1,21 @@
-Purple Spider
-The last Web Agency you will ever need
 
-Home
-About us
-Services 
-Blog
-Contacts
+
 
 Need a website?
 We do amazingly futuristic stuff using the same tools everyone has. We are so unique and awesome we didn't spend money on marketing gurus or copy writers!
-Tell us about your project
 
 Our Team
 
-Genghis Khan
-CTO
-Smart dude, geeky, knows his stuff! Nothing else.
 
-Sun Tzu
-Sales
-Very agressive! Results driven.
 
-Genghis Khan
-CEO
-Drinks a lot. Loves meetings!
 
-Some Guy
-SEO Optimisation
-Drinks. Hates computers ...
 
-Generic Dude
-Front End
-Cares too much about useless things
 
-Nice Guy
-Lead Developer
-We are not sure what he does!
+
+
+
+
+
 
 Sign-up to our newsletter
 Testimonials
@@ -45,9 +25,9 @@ Genghis Khan
 Mongolian emperor
 
 Purple Spider
-We are the best web gurus you will ever have the pleasure to encounter. We are amazing!
 
-Sitemap
+
+
 Home
 About us
 Services 
