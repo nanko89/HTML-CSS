@@ -1,0 +1,65 @@
+@import url("reset.css");
+@import url("typography.css");
+
+body {
+  background-color: #eeeeee;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid gainsboro;
+  border-collapse: collapse;
+}
+
+thead tr {
+  background-color: black;
+  color: #eeeeee;
+  text-align: left;
+}
+
+tbody tr {
+  background-color: #ffffff;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+
+@media (max-width: 400px) {
+  table {
+    font-size: 13px;
+  }
+
+  tbody {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+  }
+  th {
+    width: 40%;
+  }
+
+  tr {
+    display: flex;
+    flex-direction: column;
+  }
+
+  tbody tr {
+    background-color: #ffffff;
+    color: black;
+  }
+
+  thead tr:nth-child(odd) {
+    width: 40%;
+    background-color: #f1f1f1;
+    color: black;
+  }
+}

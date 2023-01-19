@@ -22,6 +22,10 @@ header .header__logo {
   grid-area: "header";
 }
 
+.btn-menu {
+  display: none;
+}
+
 header .header_nav {
   grid-area: "nav";
 }
@@ -150,7 +154,7 @@ footer article ul li a {
     display: flex;
   }
 
-  header nav.header_nav {
+  nav.header__nav {
     display: none;
   }
 
