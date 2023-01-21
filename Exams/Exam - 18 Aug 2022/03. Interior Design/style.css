@@ -1,0 +1,211 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@100;400;500;900&display=swap");
+@import url("reset.css");
+
+body {
+  margin: 0 auto;
+  padding: 0 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Abril Fatface", cursive;
+}
+
+/* -------HEADER SECTION-------- */
+
+header {
+  background-image: url("image/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1400px;
+  background-position: center;
+}
+
+.left {
+  position: absolute;
+  top: 4%;
+  left: 6%;
+  border: 1px solid #aca7a7;
+  width: 415px;
+  padding: 30px;
+  height: 345px;
+  box-shadow: 10px 7px 19px -4px rgba(0, 0, 0, 0.75);
+}
+
+.left .left__title {
+  font-size: 60px;
+  border-bottom: 3px solid floralwhite;
+  font-family: "Abril Fatface", cursive;
+}
+
+.left .left__desc {
+  font-size: 32px;
+  margin-top: 16px;
+}
+
+.right {
+  text-shadow: 0 0 3px black;
+  border: 1px solid #9b928a;
+  position: absolute;
+  right: 5%;
+  top: 420px;
+  width: 513px;
+  font-size: 30px;
+  text-align: right;
+  /* box-shadow: 10px 7px 19px -4px rgba(0, 0, 0, 0.75); */
+  box-shadow: -8px 6px 34px -5px rgb(0 0 0 / 75%);
+
+  padding: 24px;
+  background-image: linear-gradient(
+    to right top,
+    #9b928a,
+    #a19992,
+    #a7a099,
+    #aea8a1,
+    #b4afa9,
+    #b8b3ae,
+    #bcb8b4,
+    #c0bcb9,
+    #c2bfbc,
+    #c5c1c0,
+    #c7c4c3,
+    #c9c7c6
+  );
+  color: white;
+}
+
+.right .right__title {
+  font-size: 95px;
+  color: #9b928a;
+  padding-bottom: 0;
+  margin-bottom: -55px;
+}
+
+/* -------MAIN SECTION-------- */
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "main aside"
+    "footer aside";
+}
+
+h2 {
+  font-size: 64px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+span {
+  font-weight: 900;
+  font-style: italic;
+}
+
+.fa-solid {
+  display: inline-block;
+  font-size: 30px;
+}
+
+.main {
+  grid-area: main;
+  padding: 48px;
+}
+
+.main__content {
+  padding-bottom: 36px;
+}
+
+.main .main__title {
+  margin: 36px 0;
+}
+.main .content__title {
+  display: inline-block;
+  margin: 0 5px;
+  font-weight: 500;
+}
+
+.main .content__desc {
+  display: inline;
+  font-size: 30px;
+}
+
+.aside {
+  grid-area: aside;
+  background-color: #b8b3ae;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+
+.aside .aside__content__title {
+  font-size: 142px;
+  margin: 36px 36px 0;
+  color: white;
+  font-weight: 100;
+}
+
+main .aside .aside__content__desc {
+  font-size: 30px;
+  margin: -50px 36px 136px;
+  text-transform: uppercase;
+}
+
+.footer {
+  grid-area: footer;
+  padding: 48px;
+}
+
+.footer .footer__title {
+  border-bottom: 2px solid black;
+  margin: 0 -50px 0 -100px;
+  font-weight: 900;
+  padding-left: 100px;
+}
+
+.footer .footer__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  gap: 18px;
+}
+
+.footer .footer__list .footet__item {
+  text-decoration: none;
+}
+
+.footer .footer__form {
+  margin: 36px;
+}
+
+.footer .footer__form input {
+  margin-right: 15px;
+  padding: 16px 300px 16px 16px;
+  font-size: 24px;
+  background-color: #b8b3ae;
+  border-radius: 8px;
+  border: none;
+}
+
+.footer .footer__form input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.footer .footer__form button {
+  padding: 16px 32px;
+  font-size: 24px;
+  background-color: olivedrab;
+  color: white;
+  border-radius: 12px;
+}

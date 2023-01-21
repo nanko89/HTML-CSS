@@ -1,0 +1,111 @@
+@media (max-width: 600px) {
+  body {
+    font-size: 12px;
+  }
+  /*----- HEADER --------*/
+  header nav {
+    flex-direction: column;
+  }
+
+  header nav ul {
+    margin-top: 1rem;
+  }
+
+  header nav ul li {
+    display: block;
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 0.3em;
+  }
+
+  header nav ul li a {
+    font-size: 16px;
+  }
+
+  .header-title {
+    padding: 0;
+  }
+
+  .header-title h1 {
+    font-size: 36px;
+  }
+
+  .header-title p {
+    font-size: 16px;
+  }
+
+  .header-title button {
+    font-size: 12px;
+  }
+
+  /* -----SECTION ABOUT US -----*/
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .team-description-wrapper,
+  .about-us {
+    padding: 1.5rem 0;
+  }
+
+  /* -----SECTION TEAM DESCRIPTIO -----*/
+
+  .team-description ul {
+    flex-wrap: wrap;
+  }
+
+  .team-description ul li {
+    margin-bottom: 2.5em;
+  }
+
+  .team-description ul li img {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* -----SECTION CHOOSE US -----*/
+
+  .choose-us ul {
+    flex-direction: column;
+  }
+
+  .choose-us li img {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .choose-us li h4 {
+    font-size: 16px;
+  }
+
+  .choose-us ul li p {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* -----SECTION BLOG NEWS -----*/
+
+  .blog-news ul {
+    align-items: center;
+    padding-top: 2em;
+    flex-direction: column;
+  }
+
+  .blog-news ul .item {
+    margin-bottom: 2.5em;
+  }
+
+  .blog-news ul .item .avatar {
+    width: 16rem;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    margin: 0;
+  }
+
+  .blog-news .content {
+    width: 12rem;
+  }
+}

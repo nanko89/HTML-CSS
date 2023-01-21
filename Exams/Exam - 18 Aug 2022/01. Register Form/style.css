@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.container {
+  width: 930px;
+  height: 630px;
+  border: none;
+  background-image: url("images/form-background.png");
+  background-size: cover;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 32px;
+  top: 50%;
+  left: 50%;
+}
+
+.form__box {
+  max-width: 40%;
+  margin: 85px 50px;
+  display: grid;
+  grid-auto-columns: auto;
+  gap: 5px 40px;
+  grid-template-areas:
+    "title title"
+    "fname lname"
+    "email email"
+    "password password"
+    "confirm confirm"
+    "check check"
+    "btn btn";
+}
+
+input {
+  border-radius: 30px;
+  padding: 10px;
+  width: 100%;
+  margin: 13px;
+}
+
+.form_title {
+  grid-area: title;
+}
+
+.fname {
+  grid-area: fname;
+}
+.lname {
+  grid-area: lname;
+}
+.email {
+  grid-area: email;
+}
+.password {
+  grid-area: password;
+}
+.confirm {
+  grid-area: confirm;
+}
+.check {
+  grid-area: check;
+  font-size: 14px;
+}
+
+.check input {
+  width: unset;
+}
+
+.btn {
+  grid-area: btn;
+  width: 175px;
+  padding: 12px 15px;
+  margin: 5px auto;
+  background-color: brown;
+  color: beige;
+  border-radius: 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
