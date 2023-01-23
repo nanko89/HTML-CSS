@@ -1,0 +1,26 @@
+@media (max-width: 600px) {
+  button {
+    display: none;
+  }
+
+  .left-to-right:first-child {
+    height: unset;
+    padding: 72px 50px 110px;
+  }
+
+  main .left-to-right article {
+    width: unset;
+    height: unset;
+    padding: 30px 32px;
+    border-radius: 20%;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  main section:nth-child(2),
+  main section:nth-child(4) {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("reset.css");
+
+body {
+  font-family: "Courgette", cursive;
+  background-color: #f5f5f5;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+main {
+  padding: 0 100px;
+}
+
+.title {
+  letter-spacing: 4px;
+  padding-top: 32px;
+  font-size: 50px;
+  font-weight: normal;
+}
+
+.sub-title {
+  font-size: 24px;
+  color: #cc2b2a;
+  padding-left: 245px;
+  margin-top: -18px;
+  margin-bottom: 28px;
+  letter-spacing: 5px;
+}
+
+.cards {
+  display: flex;
+  gap: 32px;
+}
+
+.card {
+  background-color: white;
+  width: 33.33%;
+  text-align: center;
+  border-radius: 20px;
+  position: relative;
+}
+
+.card .card__img {
+  border-radius: 20px 20px 0 0;
+}
+.card .card__title {
+  font-size: 24px;
+  margin: 12px;
+}
+
+.card .card__desc {
+  border-top: 3px solid #cc2b2a;
+  font-size: 16px;
+  padding: 18px 60px 50px;
+  margin-bottom: 20px;
+}
+
+.card .card__read {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  display: inline;
+}
+
+.fa-solid {
+  background-color: #cc2b2a;
+  border-radius: 100%;
+  padding: 2px;
+  color: white;
+  display: inline;
+  position: absolute;
+  bottom: 5%;
+  left: 65%;
+}
