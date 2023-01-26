@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap");
+
+body {
+  font-family: "PT Serif", serif;
+}
+
+section {
+  display: flex;
+  max-width: 50%;
+  margin: 10px auto;
+  padding: 16px;
+  box-shadow: 1px 1px 11px 2px rgba(0, 0, 0, 0.75);
+}
+
+.content {
+  flex: 50%;
+  background-image: url(image/image1.png);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  border-bottom: 1px dotted green;
+  margin: 0;
+}
+
+.sub-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+span {
+  color: green;
+  font-weight: 600;
+}
+
+td,
+th,
+table {
+  border: 1px solid green;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.img {
+  flex: 50%;
+}
+
+.img img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
