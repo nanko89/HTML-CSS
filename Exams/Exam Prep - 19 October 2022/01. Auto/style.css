@@ -1,0 +1,75 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;800&family=Poppins:wght@100;300;400;500;600;800&display=swap");
+
+@import url("reset.css");
+
+main {
+  display: flex;
+  max-width: 1350px;
+  padding: 50px;
+  gap: 20px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  align-items: stretch;
+}
+
+.left {
+  flex: 50%;
+  padding: 0 20px;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 25px;
+  color: #282828;
+}
+
+.desc {
+  padding: 5px 0;
+  font-size: 15px;
+  color: #a0a0a0;
+}
+
+.items {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.item {
+  display: flex;
+  gap: 15px;
+  padding: 20px 0 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.item__img {
+  width: 60px;
+}
+
+.item__title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #282828;
+}
+
+.item__desc {
+  color: #a0a0a0;
+  font-size: 14px;
+}
+
+.rigth {
+  flex: 50%;
+}
+
+.right__img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
