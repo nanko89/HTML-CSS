@@ -1,0 +1,188 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@import url("reset.css");
+
+:root {
+  --clr-grey-bg: #efefef;
+  --clr-grey-icon: #909090;
+  --clr-grey-text: #525252;
+  --clr-black-text: #222222;
+  --clr-black-btn: #111111;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+main {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-rows: repeat(6, 1fr);
+  gap: 50px;
+  margin: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+section {
+  display: flex;
+  padding: 100px;
+  background-color: var(--clr-grey-bg);
+  max-height: 800px;
+}
+
+.left {
+  flex-basis: 50%;
+  padding: 100px;
+}
+
+.right {
+  flex-basis: 50%;
+  padding: 30px;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.desc {
+  padding-top: 50px;
+  width: 70%;
+  font-size: 24px;
+  line-height: 1.5;
+  font-style: oblique;
+  color: var(--clr-grey-text);
+}
+
+.v-divider {
+  height: 100px;
+  width: 1px;
+  background-color: var(--clr-grey-text);
+  margin-top: 30px;
+}
+
+.h-divider {
+  width: 100px;
+  height: 1px;
+  background-color: var(--clr-grey-text);
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.title span {
+  font-weight: 100;
+}
+
+.header__img {
+  position: relative;
+  bottom: 50px;
+}
+
+.header .menu {
+  position: relative;
+  left: 85%;
+}
+
+.camera__title {
+  display: flex;
+}
+
+.woman-camera {
+  padding: 0;
+}
+
+.woman__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.icons i {
+  padding-top: 20px;
+  padding-right: 20px;
+  font-size: 32px;
+  color: var(--clr-grey-text);
+}
+
+.bridge .right {
+  position: relative;
+}
+
+.bridge__img {
+  position: absolute;
+  top: -10%;
+}
+
+.pictures {
+  position: relative;
+}
+
+.first {
+  position: absolute;
+  height: 70%;
+  left: 200px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.second {
+  position: absolute;
+  height: 80%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.third {
+  position: absolute;
+  height: 70%;
+  right: 200px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .desc {
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.form {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+input[type="email"] {
+  flex: 48%;
+  padding: 10px;
+}
+
+input[type="text"] {
+  flex: 48%;
+  padding: 10px;
+}
+
+.form button {
+  flex: 100%;
+  padding: 10px;
+  background-color: #111111;
+  color: #efefef;
+}
+
+textarea {
+  flex: 100%;
+}
+
+.footer p {
+  margin-top: 100px;
+}

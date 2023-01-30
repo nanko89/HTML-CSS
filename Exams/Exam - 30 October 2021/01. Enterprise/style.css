@@ -1,0 +1,68 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("reset.css");
+
+:root {
+  --clr-grey-bg: #f6f8f9;
+  --clr-white-text: #f7f6ff;
+  --clr-grey-text: #737d86;
+  --clr-dark-text: #283341;
+  --clr-purple-btn: #786eff;
+}
+
+main {
+  padding: 50px;
+  display: flex;
+  gap: 20px;
+  background-color: var(--clr-grey-bg);
+  font-family: Helvetica, sans-serif;
+  width: 70%;
+  margin: 30px auto;
+}
+
+.left {
+  width: 70%;
+  padding-top: 30px;
+}
+
+.header {
+  font-size: 12px;
+  letter-spacing: 1.1px;
+  font-weight: 700;
+  color: var(--clr-dark-text);
+}
+
+.title {
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 100;
+  color: var(--clr-dark-text);
+}
+
+.desc {
+  font-size: 24px;
+  padding-top: 30px;
+  width: 70%;
+  line-height: 1.5;
+  color: var(--clr-grey-text);
+}
+
+.buttons {
+  padding-top: 20px;
+}
+
+.learn,
+.contact {
+  display: inline-block;
+  padding: 18px 36px;
+  margin-right: 12px;
+  border-radius: 2px;
+  font-size: 18px;
+  letter-spacing: 1.1px;
+}
+
+.contact {
+  background-color: var(--clr-purple-btn);
+  color: var(--clr-white-text);
+  border: none;
+}

@@ -1,0 +1,46 @@
+@media (max-width: 600px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  .hero img {
+    display: none;
+  }
+
+  .container-fluid {
+    text-align: center;
+  }
+
+  .hero h1 {
+    margin-top: 50px;
+  }
+
+  .hero-btns {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto 150px;
+  }
+
+  .col-sm-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .service-box {
+    text-align: left;
+  }
+
+  .about .center {
+    text-align: center;
+  }
+
+  .contact-us {
+    text-align: center;
+  }
+
+  .contact-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
