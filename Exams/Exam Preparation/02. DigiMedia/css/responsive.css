@@ -1,0 +1,143 @@
+@media (max-width: 600px) {
+    .navbar {
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .navbar-light .navbar-brand {
+        margin: 0;
+    }
+
+    .navbar-light .navbar-brand img {
+        width: 100px;
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .hero img {
+        display: none;
+    }
+
+    .hero h1 {
+        margin-top: 75px;
+        text-align: center;
+    }
+
+    .hero p {
+        width: 95%;
+        margin-bottom: 70px;
+    }
+
+    .hero-btns {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .hero-btns a:first-child,
+    .hero-btns a:last-child {
+        padding: 25px 35px;
+        font-size: 1.1rem;
+        border-radius: 50px;
+    }
+
+    .services {
+        padding: 180px 0 80px;
+    }
+
+    h2 {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .service-btn a {
+        font-size: 1.1rem;
+    }
+
+    .col-sm-6 {
+        max-width: 90%;
+        flex: 100%;
+        margin: 30px auto;
+    }
+
+    .service-box {
+        text-align: left;
+    }
+
+    .service-box img {
+        width: 85px;
+    }
+
+    .services p {
+        margin-bottom: 180px;
+        font-size: 18px;
+        line-height: 2;
+    }
+
+    h3 {
+        font-size: 2.1rem;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .about h5 {
+        padding-top: 100px;
+        font-size: 24px;
+    }
+
+    .about h2 {
+        padding-bottom: 20px;
+    }
+
+    .about p {
+        font-size: 1.6rem;
+    }
+
+    h5 {
+        font-size: 1.2rem;
+    }
+
+    #contact-us {
+        text-align: center;
+    }
+
+    #contact-us .container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .email input {
+        padding: 40px 20px;
+    }
+    .hero-btns.contact-btn {
+        display: none;
+    }
+
+    footer h5 {
+        padding: 30px 0;
+        font-size: 1.3rem;
+    }
+
+    footer h3 {
+        font-size: 3.5rem;
+        line-height: 1.1;
+    }
+
+    footer h6 {
+        padding-bottom: 8px;
+    }
+    .contact-nav {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+
+    .contact-nav a {
+        font-size: 1.3rem;
+    }
+}
