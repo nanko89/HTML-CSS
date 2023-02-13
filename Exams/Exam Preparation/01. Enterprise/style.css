@@ -1,0 +1,67 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("reset.css");
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+main {
+    background: #f6f8f9;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    width: 72%;
+    margin: 50px auto;
+    padding: 60px 60px 0 60px;
+    border-radius: 10px;
+}
+
+h1,
+.sub-title {
+    color: #273240;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+
+.sub-title {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    padding-bottom: 20px;
+}
+
+.desc {
+    color: #79838b;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    font-weight: 100;
+    line-height: 1.8;
+    padding-bottom: 30px;
+}
+
+.left {
+    width: 45%;
+}
+
+.right {
+    width: 35%;
+}
+
+.btn {
+    padding: 15px 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+}
+
+.btn-left {
+    background: #786eff;
+    color: #f6f8f9;
+    border: none;
+}
