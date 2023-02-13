@@ -1,0 +1,206 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:ital@1&family=Raleway:wght@100;400;500;600;700;900&display=swap");
+
+@import url("reset.css");
+
+body {
+    font-family: "Raleway", sans-serif;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 40px;
+    margin: 50px;
+}
+
+header,
+section,
+footer {
+    background: #efefef;
+    color: #454545;
+}
+
+header {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    z-index: 2;
+    right: 30px;
+    top: 30px;
+    font-size: 18px;
+}
+
+.menu i {
+    font-size: 24px;
+    padding-left: 12px;
+}
+
+.header,
+.camera,
+.bridge,
+.icons {
+    position: relative;
+    padding-top: 50px;
+    display: flex;
+}
+
+.left {
+    padding: 100px;
+    flex: 50%;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.title span {
+    font-weight: 100;
+}
+
+.desc {
+    font-family: "Noto Serif Tamil", serif;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 2;
+    padding-right: 110px;
+}
+
+.right {
+    flex: 50%;
+    padding-right: 100px;
+}
+
+.header .right {
+    flex: 60%;
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.v-divider {
+    margin: 30px 0;
+    height: 100px;
+    width: 1px;
+    background-color: black;
+}
+
+.h-divider {
+    margin: 30px 30px 0 0;
+    height: 1px;
+    width: 100px;
+    position: relative;
+    background-color: black;
+}
+
+.camera .left {
+    padding-top: 100px;
+}
+
+.camera .right {
+    padding-top: 100px;
+    flex: 60%;
+}
+
+.camera-title {
+    display: flex;
+}
+
+.camera .desc {
+    padding-bottom: 30px;
+}
+
+.icons li {
+    font-size: 20px;
+    padding: 8px 16px;
+    background-color: #909090;
+    color: #efefef;
+    margin-right: 24px;
+}
+
+.woman {
+    background-image: url(images/thumb-1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bridge .right {
+    flex: 70%;
+    padding: 100px;
+}
+
+.bridge .desc {
+    padding-right: 0;
+}
+
+.gallery {
+    padding: 150px;
+    position: relative;
+}
+
+.behind {
+    display: flex;
+    gap: 300px;
+    margin: 0 auto;
+}
+
+.behind img {
+    width: 40%;
+    object-fit: cover;
+}
+
+.front {
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer {
+    padding: 100px 100px 20px;
+    text-align: center;
+}
+
+footer p {
+    width: 70%;
+    margin: 0 auto;
+    font-style: italic;
+    letter-spacing: 1.2px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    gap: 30px;
+    margin: 50px auto 100px;
+}
+
+form input[type="email"] {
+    flex: 45%;
+    padding: 10px;
+}
+
+form input[type="text"] {
+    flex: 50%;
+    padding: 10px;
+}
+
+form textarea {
+    flex: 100%;
+    padding: 10px;
+}
+
+form button {
+    flex: 100%;
+    padding: 10px;
+    color: azure;
+    background-color: black;
+}
