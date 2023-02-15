@@ -1,3 +1,213 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
 
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
 @import url("reset.css");
+
+body {
+    font-family: "Gelasio", serif;
+}
+
+header {
+    background: #e6e3de;
+    color: #554938;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+header .logo h2 {
+    font-size: 36px;
+}
+
+header .nav ul {
+    display: flex;
+    gap: 50px;
+    font-size: 24px;
+}
+
+header .login {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+header .login p {
+    background-color: #554938;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 18px;
+}
+
+header .login i {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+main {
+    /* display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr; */
+}
+
+/* main .hero {
+    max-height: 60vh;
+} */
+
+main .hero img {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+
+main .hero .content {
+    position: absolute;
+    z-index: 10;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+}
+
+main .hero .content input {
+    background: rgb(255 255 255 / 75%);
+}
+
+main .hero .content i {
+    position: absolute;
+    color: #888181;
+    top: 75px;
+    left: 105px;
+    font-size: 20px;
+}
+
+/* main .container {
+    max-height: 180vh;
+} */
+
+main .container {
+    display: flex;
+    flex-direction: column;
+}
+
+main .container {
+    background-image: url(Media/background.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute; */
+}
+
+main .container .cocktails,
+main .container .cookie {
+    display: flex;
+    align-items: center;
+    margin: 50px 200px;
+}
+
+main .container .cocktails .left-img,
+main .container .cookie .right-img {
+    flex: 60%;
+}
+
+main .container .cocktails .right-content,
+main .container .cookie .left-content {
+    flex: 40%;
+    background: #e6e3de;
+    text-align: center;
+    padding: 215px 50px;
+}
+
+main .container .cookie .left-content {
+    padding: 235px 50px;
+}
+.title {
+    font-size: 40px;
+}
+
+.desc {
+    font-size: 32px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #554938;
+    color: #e6e3de;
+    font-size: 16px;
+}
+main .container .cocktails .left-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+main .container .cookie {
+    margin: 0 200px;
+}
+
+main .container .catalog {
+    margin: 50px auto;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    gap: 150px;
+}
+
+ul .item {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0;
+}
+
+ul .item img {
+    width: 200px;
+}
+
+ul .item p {
+    background: rgba(255, 255, 255, 75%);
+    font-size: 24px;
+    padding: 20px;
+}
+
+.catalog .desc {
+    width: 300px;
+    font-size: 32px;
+    margin: 0 auto;
+    padding: 12px;
+    background: rgba(255, 255, 255, 75%);
+}
+
+.catalog button {
+    background-color: rgb(218 76 51);
+    color: #e6e3de;
+    padding: 12px 100px 12px;
+    border: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 100px;
+    gap: 20px;
+    background: #e6e3de;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 24px;
+}
+
+footer ul li {
+    padding: 30px 0;
+}

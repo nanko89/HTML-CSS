@@ -1,15 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <section class="logo"><h2>Food</h2></section>
+            <section class="nav">
+                <ul role="list">
+                    <li>About</li>
+                    <li>Recipies</li>
+                    <li>Cuisines</li>
+                    <li>Tips</li>
+                </ul>
+            </section>
+            <section class="login">
+                <p>Log in</p>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </section>
+        </header>
+        <main>
+            <article class="hero">
+                <img src="Media/craving.jpg" alt="" />
+                <div class="content">
+                    <h1 class="title">What are you craving?</h1>
+                    <label for="search">
+                        <i class="fa-solid fa-magnifying-glass"></i><input type="text" />
+                    </label>
+                </div>
+            </article>
+            <article class="container">
+                <!-- <img class="bg" src="Media/background.jpg" alt="" /> -->
+                <section class="cocktails">
+                    <div class="left-img">
+                        <img src="Media/cocktails.jpg" alt="" />
+                    </div>
+                    <div class="right-content">
+                        <h2 class="title">Party favorites</h2>
+                        <p class="desc">The best cocktails and how to make them</p>
+                        <button
+                            class="btn"
+                            type="su
+                        "
+                        >
+                            View recipes
+                        </button>
+                    </div>
+                </section>
+                <section class="cookie">
+                    <div class="left-content">
+                        <h2 class="title">A Royal-Icing Tutorial:</h2>
+                        <p class="desc">Decorate Christmas Cookies Like a Boss</p>
+                    </div>
+                    <div class="right-img">
+                        <img src="Media/cookies.jpg" alt="" />
+                    </div>
+                </section>
+                <section class="catalog">
+                    <p class="desc">Cookie Toolbox</p>
+                    <ul role="list">
+                        <li class="item">
+                            <img src="Media/cutters.jpg" alt="" />
+                            <p>Cookie cutters</p>
+                        </li>
+                        <li class="item">
+                            <img src="Media/sheets.jpg" alt="" />
+                            <p>Baking sheets</p>
+                        </li>
+                        <li class="item">
+                            <img src="Media/bowls.jpg" alt="" />
+                            <p>Batter bowls</p>
+                        </li>
+                        <li class="item">
+                            <img src="Media/rolling_pin.jpg" alt="" />
+                            <p>Rolling pin</p>
+                        </li>
+                    </ul>
+                    <button class="shop">Shop Now!</button>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <ul role="list">
+                <li>About</li>
+                <li>Team</li>
+                <li>Events</li>
+                <li>Jobs</li>
+            </ul>
+            <ul role="list">
+                <li>FAQ</li>
+                <li>My Orders</li>
+                <li>Favorites</li>
+                <li>Contacts</li>
+            </ul>
+            <ul role="list">
+                <li>&copy;2019</li>
+                <li>Terms</li>
+                <li>Privacy</li>
+            </ul>
+        </footer>
+        <img src="screenshot.png" alt="" />
+    </body>
 </html>
