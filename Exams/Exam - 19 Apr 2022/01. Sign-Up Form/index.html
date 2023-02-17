@@ -1,48 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign-Up Form</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <section>
-      <article class="left">
-        <p class="top">SoftUni</p>
-        <h1 class="title">Welcome to SoftUni.</h1>
-        <p class="sub-title">Are you ready to become a dev?</p>
-        <div class="icons">
-          <i class="fa-solid fa-earth-americas"></i>
-          <i class="fa-brands fa-github"></i>
-          <i class="fa-brands fa-twitter"></i>
-        </div>
-      </article>
-      <article class="right">
-        <form action="" method="get">
-          <label for="username">USERNAME</label>
-          <input type="text" name="username" placeholder="antoniyaat" />
-          <label for="email">EMAIL</label>
-          <input
-            type="email"
-            name="email"
-            placeholder="a.atanasova@softuni.bg
-          "
-          />
-          <label for="password">PASSWORD</label>
-          <input
-            type="password"
-            name="password"
-            placeholder="********
-          "
-          />
-          <label for="repeat">REPEAT PASSWORD </label>
-          <input type="password" name="repeat" placeholder="********" />
-          <button type="submit">REGISTER</button>
-          <a href="">I am already a ninja</a>
-        </form>
-      </article>
-    </section>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sign-Up Form</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <main>
+            <section class="left">
+                <p class="header">SoftUni</p>
+                <h1 class="title">Welcome to SoftUni.</h1>
+                <p class="sub-title">Are you ready to become a dev?</p>
+                <ul role="list">
+                    <li><i class="fa-solid fa-earth-americas"></i></li>
+                    <li><i class="fa-brands fa-github"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                </ul>
+            </section>
+            <section class="right">
+                <form action="">
+                    <label for="username">
+                        USERNAME
+                        <input
+                            type="text"
+                            name="username"
+                            id="username"
+                            placeholder="antoniyaat
+                        "
+                        />
+                    </label>
+                    <label for="email"
+                        >EMAIL
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="a.atanasova@softuni.bg
+                        "
+                        />
+                    </label>
+                    <label for="password"
+                        >PASSWORD
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder="********"
+                        />
+                    </label>
+                    <label for="repass"
+                        >REPEAT PASSWORD
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            placeholder="********"
+                        />
+                    </label>
+                    <label for="button">
+                        <button type="submit">REGISTER</button>
+                        <a href="">I am already a ninja</a></label
+                    >
+                </form>
+            </section>
+        </main>
+    </body>
 </html>
