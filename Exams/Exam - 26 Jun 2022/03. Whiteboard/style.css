@@ -5,232 +5,177 @@
 @import url("reset.css");
 
 body {
-  display: grid;
-  grid-auto-columns: 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1.5fr 1fr 1fr 1.5fr;
-  gap: 0px 0px;
-  grid-template-areas:
-    "head head"
-    "main main"
-    "main main"
-    "footer footer";
-
-  font-family: "PT Sans", sans-serif;
-  margin: 0 50px;
+    font-family: "PT Sans", sans-serif;
+    margin: 0 100px;
 }
-
-/* ------HEADER------ */
 
 header {
-  grid-area: head;
-  position: relative;
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2) 24%, rgba(0, 0, 0, 0.4) 45%),
-    url("image/computer-main.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  /* justify-content: space-between; */
-  flex-direction: column;
-  text-shadow: 1px 2px 3px black;
+    height: 70vh;
+    background-image: url(image/computer-main.jpg), linear-gradient(#000000ad, #00010a40);
+    background-blend-mode: color;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-i {
-  padding: 0 10px;
+header .menu {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: 20px;
+    padding: 20px 200px;
+    color: white;
+    font-size: 24px;
 }
 
-.top {
-  display: flex;
-  justify-content: space-between;
+header .content {
+    margin: 50px auto;
+    color: white;
+    text-align: center;
 }
 
-.top .top__left {
-  margin: 24px 150px;
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
+header .content .title {
+    font-size: 80px;
 }
 
-.top .top__right {
-  margin: 24px 150px;
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
+header .content .sub-title {
+    font-size: 32px;
+    width: 50%;
+    margin: 20px auto 50px;
 }
 
-.center {
-  text-align: center;
-  color: white;
+header .content button {
+    background-color: #00d08e;
+    border: none;
+    font-size: 24px;
+    border-radius: 8px;
+    color: white;
+    padding: 12px 24px;
+    font: 32px;
+    margin-bottom: 50px;
 }
 
-.center .center__title {
-  font-size: 4rem;
-  position: relative;
-  top: 40%;
+header .content .seeit {
+    font-size: 28px;
 }
 
-.center .center__sub-title {
-  width: 45%;
-  position: relative;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 1.6rem;
+header .content .seeit i {
+    background-color: white;
+    color: black;
+    border-radius: 100%;
+    padding: 5px;
+    font-size: 20px;
 }
-
-.bottom {
-  position: relative;
-  top: 24%;
-  text-align: center;
-}
-
-.bottom .bottom__btn {
-  background-color: #00d08e;
-  color: white;
-  padding: 5px 20px;
-  font-size: 1.6rem;
-  border-radius: 5px;
-  font-weight: 900;
-  border: none;
-  margin-bottom: 80px;
-}
-
-.bottom .bottom__more {
-  color: white;
-  font-size: 1.5rem;
-}
-
-/* ------MAIN------ */
 
 main {
-  grid-area: main;
+    display: flex;
+    flex-direction: column;
 }
 
-.first {
-  display: flex;
+main .top,
+main .bottom {
+    max-height: 550px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.first__img {
-  flex: 50%;
+main .img {
+    width: 55%;
 }
 
-.first__content {
-  flex: 50%;
-  padding: 20px 70px;
+main .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.first__content__title {
-  font-size: 2rem;
+main .content {
+    padding: 60px;
+    margin: 0 auto;
 }
 
-.first__content__sub-title {
-  font-size: 1.3rem;
+main .content h2 {
+    font-size: 40px;
 }
 
-.first__content__list {
-  text-decoration: none;
-  list-style: none;
-  padding: 0;
+main .content .desc {
+    font-size: 32px;
 }
 
-.first__content__item {
-  font-size: 1.3rem;
-
-  margin: 4% 0;
+main .content ul li {
+    margin-top: 24px;
+    font-size: 24px;
 }
 
-.fa-circle-check {
-  color: #00d08e;
-  font-size: 1.5rem;
-  padding-right: 24px;
+main .content ul li i {
+    background-color: #14d198;
+    color: white;
+    margin-right: 24px;
+    border-radius: 100%;
+    border: none;
 }
 
-.second {
-  display: flex;
+main .bottom .content h2 {
+    text-align: center;
 }
 
-.second__icons {
-  flex: 50%;
+main .bottom ul {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    text-align: center;
+    gap: 50px 40px;
 }
 
-.second__icons_title {
-  font-size: 30px;
-  text-align: center;
-  padding-top: 20px;
+main .bottom li img {
+    width: 80px;
+    margin: 0 auto;
 }
 
-.second .second__icons_list {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
-  padding: 0px;
-  list-style: none;
+main .bottom li p {
+    font-size: 28px;
+    padding-top: 12px;
+    color: #02d090;
+    font-weight: bold;
 }
-
-.second__icons_item {
-  width: 26%;
-  font-size: 1.6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 23px;
-}
-
-.icons__desc {
-  color: #00d08e;
-}
-
-.icons__img {
-  width: 90px;
-  height: 90px;
-}
-
-.second__img {
-  flex: 50%;
-}
-/* ------FOOTER------ */
 
 footer {
-  grid-area: footer;
-  background-color: #b2f1dd;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 6px 50px;
-  margin: 0 23px;
+    background-color: #b2f1dd;
+    text-align: center;
 }
 
-.footer__title {
-  padding-bottom: 24px;
+footer ul[role="list"] {
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 60px 100px;
+    margin: 30px auto;
 }
 
-.footer__contents {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
+footer h2 {
+    font-size: 40px;
+    padding: 30px;
 }
 
-.footer__content {
-  flex: 30%;
-  padding: 30px;
+footer h3 {
+    font-size: 28px;
 }
 
-.footer__content__title {
-  font-size: 1.4rem;
+footer ul p {
+    font-size: 24px;
 }
 
-.footer__content__desc {
-  font-size: 1.1rem;
+footer p {
+    padding-bottom: 20px;
+    font-size: 24px;
 }
 
-.footer__email-us {
-  font-size: 1.1rem;
-  margin: 0 auto;
-}
-
-span {
-  font-weight: 900;
+footer a {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
 }
