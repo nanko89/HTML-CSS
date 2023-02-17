@@ -1,111 +1,95 @@
 @media (max-width: 600px) {
-  body {
-    font-size: 12px;
-  }
-  /*----- HEADER --------*/
-  header nav {
-    flex-direction: column;
-  }
+    header {
+        padding: 0;
+    }
 
-  header nav ul {
-    margin-top: 1rem;
-  }
+    header nav {
+        flex-direction: column;
+    }
 
-  header nav ul li {
-    display: block;
-    text-align: center;
-    padding-right: 0;
-    padding-bottom: 0.3em;
-  }
+    header ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10px;
+    }
 
-  header nav ul li a {
-    font-size: 16px;
-  }
+    header nav ul li {
+        padding: 2px 0;
+    }
 
-  .header-title {
-    padding: 0;
-  }
+    .header-title {
+        padding: 1em 0;
+    }
 
-  .header-title h1 {
-    font-size: 36px;
-  }
+    .header-title h1 {
+        font-size: 36px;
+    }
 
-  .header-title p {
-    font-size: 16px;
-  }
+    .header-title p {
+        font-size: 16px;
+    }
 
-  .header-title button {
-    font-size: 12px;
-  }
+    h3 {
+        font-size: 18px;
+    }
 
-  /* -----SECTION ABOUT US -----*/
+    .blog-section p:nth-child(2),
+    .team-description p:nth-child(2),
+    .about-us p:nth-child(2),
+    .about-us p:nth-child(3) {
+        font-size: 12px;
+    }
 
-  h3 {
-    font-size: 18px;
-  }
+    .team-description-wrapper,
+    .about-us {
+        padding: 1.5rem 0;
+    }
 
-  .team-description-wrapper,
-  .about-us {
-    padding: 1.5rem 0;
-  }
+    .team-description ul {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 35px;
+    }
 
-  /* -----SECTION TEAM DESCRIPTIO -----*/
+    .team-description ul li img {
+        width: 200px;
+        height: 200px;
+    }
 
-  .team-description ul {
-    flex-wrap: wrap;
-  }
+    .team-description ul li > p:nth-child(3) {
+        font-size: 12px;
+    }
 
-  .team-description ul li {
-    margin-bottom: 2.5em;
-  }
+    .choose-us ul {
+        flex-direction: column;
+    }
 
-  .team-description ul li img {
-    width: 200px;
-    height: 200px;
-  }
+    .choose-us li {
+        width: 50%;
+        margin: 0 auto;
+    }
 
-  /* -----SECTION CHOOSE US -----*/
+    .choose-us li img {
+        width: 6rem;
+        height: 6rem;
+    }
 
-  .choose-us ul {
-    flex-direction: column;
-  }
+    .choose-us li h4 {
+        font-size: 16px;
+    }
 
-  .choose-us li img {
-    width: 6rem;
-    height: 6rem;
-  }
+    .choose-us li p {
+        font-size: 12px;
+    }
 
-  .choose-us li h4 {
-    font-size: 16px;
-  }
+    .blog-news ul {
+        flex-direction: column;
+    }
 
-  .choose-us ul li p {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  /* -----SECTION BLOG NEWS -----*/
-
-  .blog-news ul {
-    align-items: center;
-    padding-top: 2em;
-    flex-direction: column;
-  }
-
-  .blog-news ul .item {
-    margin-bottom: 2.5em;
-  }
-
-  .blog-news ul .item .avatar {
-    width: 16rem;
-    overflow: hidden;
-    position: relative;
-    margin: 0 auto;
-    margin: 0;
-  }
-
-  .blog-news .content {
-    width: 12rem;
-  }
+    .blog-news ul .item {
+        width: 80%;
+        margin: 12px auto;
+    }
 }

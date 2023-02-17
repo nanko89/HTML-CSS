@@ -1,41 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <form class="form__box" action="">
-        <h1 class="form_title">Registration Form</h1>
-        <label class="fname" for="fname"
-          >First Name
-          <input type="text" name="fname" />
-        </label>
-        <label class="lname" for="lname"
-          >Last Name
-          <input type="text" name="lname" />
-        </label>
-        <label class="email" for="email"
-          >Email
-          <input type="email" name="email" />
-        </label>
-        <label class="password" for="password"
-          >Password
-          <input type="password" name="password" />
-        </label>
-        <label class="confirm" for="confirm"
-          >Confirm Password <input type="password" name="confirm"
-        /></label>
-        <label class="check">
-          <input type="checkbox" name="check" />
-          I accept the Terms of Use & Privacy Policy.
-        </label>
-        <button class="btn" type="submit">Register Now</button>
-      </form>
-    </div>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <img class="bg-img" src="images/background.png" alt="" />
+        <section class="form-section">
+            <img src="images/form-background.png" alt="" />
+            <article class="content">
+                <h1>Registration Form</h1>
+                <form action="">
+                    <label for="fname"
+                        >First Name
+                        <input type="text" />
+                    </label>
+                    <label for="lname">
+                        Last Name
+                        <input type="text" />
+                    </label>
+                    <label for="email"> Email <input type="email" /> </label>
+                    <label for="password"> Password <input type="password" /> </label>
+                    <label for="repass">
+                        Confirm Password
+                        <input
+                            type="password
+                    "
+                        />
+                    </label>
+                    <label for="check">
+                        <input
+                            type="checkbox
+                    "
+                        />
+                        I accept the Terms of Use & Privacy Policy.
+                    </label>
+                    <button type="submit">Register Now</button>
+                </form>
+            </article>
+        </section>
+    </body>
 </html>
