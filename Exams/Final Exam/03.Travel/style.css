@@ -1,0 +1,177 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("reset.css");
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+
+header {
+    background-image: url(images/landing-photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px 350px 100px;
+    height: 70vh;
+    background-blend-mode: lighten;
+}
+
+header .header {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+header .header .logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+header .header .nav ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    font-size: 18px;
+}
+
+header .header .nav ul a {
+    text-decoration: none;
+    color: #919594;
+    font-weight: 500;
+}
+
+header .header .nav ul button,
+header .content button {
+    background-color: #370511;
+    color: #ffffff;
+    border-radius: 24px;
+    padding: 0px 24px;
+    cursor: pointer;
+}
+
+header .content {
+    margin-top: 150px;
+}
+
+header .content .title {
+    font-size: 60px;
+}
+
+header .content .sub-title {
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+header .content .desc {
+    margin-bottom: 32px;
+}
+
+/* Main */
+
+main {
+    width: 67%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 42px;
+}
+
+main p {
+    color: #919594;
+}
+
+main ul[role="list"] {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 32px;
+}
+
+main ul .card img {
+    height: 280px;
+    object-fit: cover;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+main ul .card .content {
+    padding: 18px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+main ul .content .title {
+    font-size: 24px;
+    padding-bottom: 12px;
+}
+
+main ul .card .desc {
+    text-align: left;
+    padding-bottom: 28px;
+}
+
+main ul .card button {
+    border-radius: 24px;
+    color: #000000;
+    padding: 12px 24px;
+    border: 1px solid #370511;
+    background: bottom;
+    cursor: pointer;
+}
+
+footer {
+    padding: 50px 360px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+footer .logo {
+    flex: 25%;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+footer .nav {
+    flex: 50%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .nav ul li {
+    padding: 12px;
+}
+
+footer .nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+footer .links {
+    flex: 25%;
+}
+
+footer .links ul {
+    padding-top: 12px;
+    display: flex;
+    gap: 18px;
+    font-size: 20px;
+}
+
+footer .links ul a {
+    color: #ffffff;
+    text-decoration: none;
+}
