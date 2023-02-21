@@ -1,0 +1,68 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+@import url("reset.css");
+
+body {
+    background-image: linear-gradient(to bottom, #e6d1a9, #dfcba4, #d9c59f, #d2c09b, #ccba96);
+    font-family: "Open Sans", sans-serif;
+}
+
+main {
+    display: flex;
+    padding: 50px 100px;
+    gap: 50px;
+    margin: 0 auto;
+    width: 70%;
+}
+
+main .catalog ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 40px;
+}
+
+main .catalog ul li {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 24px;
+}
+
+main .catalog img {
+    width: 500px;
+    height: 200px;
+    border-radius: 24px 24px 0 0;
+}
+
+main .catalog p {
+    font-weight: 600;
+    background-color: #66545e;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 6px 12px;
+    border-radius: 0 0 24px 24px;
+}
+
+main .content {
+    color: #7c7a7d;
+    font-size: 24px;
+}
+
+main .content ul li {
+    padding-bottom: 12px;
+    font-weight: 600;
+}
+
+main .content i {
+    background-color: #7c7a7d;
+    color: #f6e0b5;
+    border-radius: 100%;
+    margin-right: 12px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+main .content p {
+    padding: 12px 0 24px;
+}
